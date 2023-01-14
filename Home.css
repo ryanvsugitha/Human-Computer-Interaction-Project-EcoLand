@@ -1,0 +1,425 @@
+@font-face {
+    font-family: mont;
+    src: url(font/Montserrat-Bold.ttf);
+}
+
+body{
+    background: white;
+}
+
+*{
+    font-family: mont;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+
+li, a{
+    font-family: "Monsterrat", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #04F17A;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    box-shadow: 0 5px 10px #04F17A;
+    margin: 0px 0px 10px 0px;
+}
+
+.logo {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    /* border: 1px solid black; */
+}
+
+.logo img{
+    width: 70px;
+    padding: 0 10px;
+}
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a {
+    transition: all 0.3 ease 0s;
+}
+
+.nav_links li a:hover {
+    color: #0088a9;
+}
+
+.butlog, .butreg {
+    padding: 9px 25px;
+    background-color: #04F17A;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3 ease 0s;
+    border: 2px solid #04F17A;
+}
+
+.butlog{
+    background-color: white;
+}
+
+.butreg{
+    color: white;
+}
+
+.butlog:hover, .butreg:hover {
+    background-color: white;
+    color: #04F17A;
+}
+
+.butlog:hover {
+    background-color: #00ff80;
+    color: white;
+}
+
+
+
+
+
+
+
+/* Body */
+
+/* Pertama */
+
+.utama{
+    width: 80%;
+    margin: 10px auto;
+}
+
+.feature-img{
+    width: 100%;
+    margin: auto;
+    position: relative;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.play-btn{
+    width: 60px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+
+.judul-utama{
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.join-utama{
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    display: block;
+    left: 50%;
+    top: 90%;
+    transform: translate(-50%, -50%);
+    color: white;
+    background: #04f17a;
+    border: 20px auto;
+    border-color: #04f17a;
+    cursor: pointer;
+}
+
+.join-utama:hover{
+    background-color: white;
+    color: #04f17a;
+}
+
+.video-player{
+    width: 80%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+
+video:focus{
+    outline: none;
+}
+
+.close-btn{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 30px;
+    cursor: pointer;
+}
+
+/* Kedua */
+
+.better{
+    width: 80%;
+    margin: 80px auto;
+}
+
+.better h1{
+    margin-bottom: 20px;
+}
+
+.better .body-col p{
+    width: 90%;
+}
+
+.better .body-col{
+    padding-top: 20px;
+}
+
+.better .body-col span{
+    color: #faed0b;
+}
+
+.better .body-col span button{
+    color: #faed0b;
+    border-color: #faed0b;
+}
+
+/* Ketiga */
+
+.beruang{
+    width: 80%;
+    margin: 80px auto;
+}
+
+.body-row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.body-col{
+    flex-basis: 50%;
+    min-width: 250px;
+}
+
+.bear{
+    width: 90%;
+    margin: 0px;
+    position: relative;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.body-col h2{
+    padding-bottom: 10px;
+}
+
+.body-col p{
+    font-family: sans-serif, mont;
+    padding-bottom: 20px;
+}
+
+.body-col button{
+    width: 100px;
+    height: 30px;
+    display: block;
+    color: #04f17a;
+    background: whitesmoke;
+    border: 20px auto;
+    border-color: #04f17a;
+    cursor: pointer;
+}
+
+.body-col button:hover{
+    background-color: #04f17a;
+    color: whitesmoke;
+}
+
+/* Keempat */
+
+.penghijauan{
+    width: 80%;
+    margin: 80px auto;
+}
+
+.forest{
+    width: 45%;
+    margin: 0px;
+    position: relative;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.penghijauan .body-col p{
+    width: 90%;
+}
+
+/* Kelima */
+
+.foto-foto{
+    width: 80%;
+    margin: 80px auto;
+    border: 2px solid black;
+}
+
+.foto-foto h1{
+    padding: 60px 0;
+    text-align: center;
+}
+
+.foto-foto h2{
+    padding: 0;
+    text-align: center;
+}
+
+.pictures{
+    margin: 10px auto;
+    text-align: center;
+}
+
+.pictures img{
+    padding: 20px 70px;
+}
+
+/* Keenam */
+
+.JoinUs{
+    width: 80%;
+    margin: 100px 20%;
+}
+
+.joinT, .contactU{
+    margin: 20px auto;
+    padding: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer */
+
+.container{
+    padding: 30px 10%;
+	margin:auto;
+    /* border: 2px solid black; */
+    
+}
+
+.row{
+	display: flex;
+	/* flex-wrap: wrap; */
+    /* justify-content: space-between; */
+}
+
+ul{
+	list-style: none;
+}
+
+.footer-col{
+    width: 30%;
+    padding: 0 15px;
+    /* border: 1px solid white; */
+}
+
+.footer-col h4{
+	font-size: 20px;
+	color: black;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+    position: relative;
+}
+
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #04F17A;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	/* color: black; */
+	text-decoration: none;
+	font-weight: 300;
+	color: #747474;
+	display: block;
+	transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover{
+	color: black;
+	padding-left: 8px;
+}
+
+
+
+/*responsive*/
+@media(max-width: 767px){
+    .footer-col{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+@media(max-width: 574px){
+    .footer-col{
+        width: 100%;
+    }
+    .row{
+        flex-direction: column;
+    }
+    .founder1 {
+        flex-direction: column;
+    }
+    .founder2 {
+        flex-direction:column-reverse;
+        align-items:left;
+        /* border: 1px solid black; */
+        margin-top: 100px;
+    }
+}
+
+.social-links {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px;
+}
+
+.social-links img{
+    width: 50px;
+}

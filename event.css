@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+/* Header */
+
+li, a, button {
+    font-family: "Monsterrat", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #04F17A;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    /* box-shadow: 0 5px 10px #04F17A; */
+    margin: 0px 0px 10px 0px;
+}
+
+.logo {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    /* border: 1px solid black; */
+}
+
+.logo img{
+    width: 70px;
+    padding: 0 10px;
+}
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a {
+    transition: all 0.3 ease 0s;
+}
+
+.nav_links li a:hover {
+    color: #0088a9;
+}
+
+button {
+    padding: 9px 25px;
+    background-color: #04F17A;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3 ease 0s;
+    border: 2px solid #04F17A;
+}
+
+.butlog{
+    background-color: white;
+}
+
+.butreg{
+    color: white;
+}
+
+button:hover {
+    background-color: white;
+    color: #04F17A;
+}
+
+.butlog:hover {
+    background-color: #00ff80;
+    color: white;
+}
+
+/*EVENT*/
+body{
+    font-family: 'Montserrat';
+}
+
+#background{
+    opacity: 0.9;
+    border-radius: 15px;
+    margin-inline: 15px;
+    width: auto;
+    height: 60vh;
+    background-image: url(assets/Event\ -\ 1P1T.jpg), url(assets/LAYER.png);
+    background-blend-mode: darken;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#event-name{
+    text-align: center;
+}
+
+#event-name h1{
+    color: white;
+    margin-bottom: 10px;
+}
+
+#event-name a{
+    font-size: 15px;
+    font-weight: bold;
+    color: #ECF104;
+    padding: 6px;
+    border-radius: 10px;
+    border: 3px solid #ECF104;
+}
+
+#event-name a:hover{
+    background-color: #ECF104;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    padding: 6px;
+    border-radius: 10px;
+    border: 3px solid #ECF104;
+}
+
+#event-info{
+    margin-block: 25px;
+    margin-inline: 100px;
+}
+
+#event-info h3{
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+#event-info h3 a{
+    text-decoration: underline;
+}
+
+#event-info-desc p{
+    text-indent: 40px;
+    margin-block: 10px;
+}
+
+#event-info-participate{
+    display: flex;
+    justify-content: center;
+}
+
+#event-info-participate a{
+    text-align: center;
+    color: #ECF104;
+    border: 3px solid #ECF104;
+    padding: 6px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 10px;
+    width: auto;
+}
+
+#event-info-participate a:hover{
+    background-color: #ECF104;
+    text-align: center;
+    color: white;
+    border: 3px solid #ECF104;
+    padding: 6px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 10px;
+    width: auto;
+}
+
+#sponsor{
+    margin-top: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sponsor-images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sponsor-images img{
+    margin-inline: 30px;
+    width: 150px;
+    height: 100%;
+}
+/*EVENT*/
+
+/*FOOTER*/
+.container{
+    padding: 30px 10%;
+	margin:auto;
+    /* border: 2px solid black; */
+    
+}
+
+.row{
+	display: flex;
+	/* flex-wrap: wrap; */
+    /* justify-content: space-between; */
+}
+
+ul{
+	list-style: none;
+}
+
+.footer-col{
+    width: 30%;
+    padding: 0 15px;
+    /* border: 1px solid white; */
+}
+
+.footer-col h4{
+	font-size: 20px;
+	color: black;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+    position: relative;
+}
+
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #04F17A;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	/* color: black; */
+	text-decoration: none;
+	font-weight: 300;
+	color: #747474;
+	display: block;
+	transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover{
+	color: black;
+	padding-left: 8px;
+}
+
+
+
+/*responsive*/
+@media(max-width: 767px){
+    .footer-col{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+@media(max-width: 574px){
+    .footer-col{
+        width: 100%;
+    }
+}

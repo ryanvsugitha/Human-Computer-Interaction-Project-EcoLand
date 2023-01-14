@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="Home.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <img src="assets/icon/logo.png">
+            <a href="Home.html">Eco Street</a>
+        </div>
+        
+        <nav class="nav_links">
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="aboutus.html">About</a></li>
+            <li><a href="community.html">Community</a></li>
+            <li><a href="contactus.html">Support</a></li>
+        </nav>
+
+        <div class="tombol">
+            <a class="log" href="Register.html"><button class="butlog">Login</button></a>
+            <a class="reg" href="Register.html"><button class="butreg">Register</button></a>
+        </div>   
+    </header>
+
+
+
+
+
+
+
+
+    <!-- video -->
+    <div class="utama">
+        <div class="feature-img">
+            <img src="assets/Lebar.png" width="100%">
+            <img src="assets/play.png" class="play-btn" onclick="playVideo('assets/video.mp4')">
+            <h1 class="judul-utama">We Need You For A Greener Indonesia For A Better Indonesia</h1>
+            <button class="join-utama" onclick="document.location='Register.html'">Join Today</button>
+        </div>
+    </div>
+
+    <div class="video-player" id="videoPlayer">
+        <video width="100%" controls id="myVideo">
+            <source src="assets/Video.mp4" type="video/mp4">
+        </video>
+        <img src="assets/close.png" class="close-btn" onclick="stopVideo()">
+    </div>
+
+    <!-- Yang learn more -->
+    <div class="better">
+        <h1>Better Environment For Better Future</h1>
+        <div class="body-row">
+            <div class="body-col">
+                <p><b>Save Water</b></p>
+                <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est.</p>
+                <button onclick="document.location='learnmore_savewater.html'">Learn More</button>
+            </div>
+            <div class="body-col">
+                <p><b>3R (Reduce, Reuse, Recycle)</b></p>
+                <p>Reduce, reuse and recycle all help to cut down on the amount of waste we throw away. They conserve natural resources, landfill space and energy. Plus, the three R's save land and money communities must use to dispose of waste in landfills.</p>
+                <button onclick="document.location='learnmore_3r.html'">Learn More</button>
+            </div>
+
+            <div class="body-row">
+                <div class="body-col">
+                    <p><b>Don't Litter</b></p>
+                    <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est.</p>
+                    <button onclick="document.location='learnmore_dontlitter.html'">Learn More</button>
+                </div>
+                <div class="body-col">
+                    <p><b>1 Person 1 Tree <span>*Event*</span></b></p>
+                    <p>Here is a concept of having 1 tree per persone this means we could plant 8 Billion Trees to the world</p>
+                    <span><button onclick="document.location='event.html'"><span>Participate</span></button></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Global Warming -->
+    <div class="beruang">
+        <div class="body-row">
+            <div class="body-col">
+                <div class="bear">
+                    <img src="assets/beruang.png" width="100%">
+                </div>
+            </div>
+            <div class="body-col">
+                <h2>Global Warming</h2>
+                <p>Global warming is a term used for the observed century-scale rise in the average temperature of the Earth's climate system and its related effects. Scientists are more than 95% certain that nearly all of global warming is caused by increasing concentrations of greenhouse gases (GHGs) and other human-caused emissions.</p>
+                <button class="learn-more" onclick="document.location='learnmore_globalwarming.html'">Learn More</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Reforestation -->
+    <div class="penghijauan">
+        <div class="body-row">
+            <div class="body-col">
+                <h2>Reforestation</h2>
+                <p>sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem.</p>
+                <button class="learn-more" onclick="document.location='learnmore_deforestation.html'">Learn More</button>
+            </div>
+            <div class="forest">
+                <img src="assets/reforest.png" width="100%">
+            </div>
+        </div>
+    </div>
+
+    <!-- Pictures -->
+    <div class="foto-foto">
+        <h1>We are saviours of planet</h1>
+        <h2>With little actions come great result</h2>
+        <h2>ApeStrongTogether</h2>
+
+        <div class="pictures">
+            <img src="assets/pertama.png">
+            <img src="assets/kedua.png">
+            <img src="assets/ketiga.png">
+            <img src="assets/keempat.png">
+            <img src="assets/kelima.png">
+            <img src="assets/keenam.png">
+            <img src="assets/ketujuh.png">
+            <img src="assets/kedelapan.png">
+        </div>
+
+    </div>
+
+    <!-- Join Today -->
+    <div class="JoinUs">
+        <div class="body-row">
+            <div class="body-col">
+                <h2>Empower our society, do good, for a greener Indonesia, for a better Indonesia.</h2>
+            </div>
+            <div class="body-col">
+                <button class="joinT" onclick="document.location='Register.html'">Join Today</button>
+                <button class="contactU" onclick="document.location='contactus.html'">Contact Us</button>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <div class="logo">
+                        <img src="assets/logo.png" alt="">
+                        <a href="Home.html">Eco Street</a>
+                    </div>
+                    <h4 class="comp">©ecoLand,Inc.2021.   We love our users!
+                        Founded by Kelompok 2</h4>
+                </div>
+                <div class="footer-col">
+                    <h4>company</h4>
+                    <ul>
+                        <li><a href="aboutus.html">about us</a></li>
+                        <li><a href="#">our services</a></li>
+                        <li><a href="#">privacy policy</a></li>
+                        <li><a href="#">affiliate program</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>get help</h4>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">shipping</a></li>
+                        <li><a href="#">returns</a></li>
+                        <li><a href="#">order status</a></li>
+                        <li><a href="#">payment options</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>online shop</h4>
+                    <ul>
+                        <li><a href="#">watch</a></li>
+                        <li><a href="#">bag</a></li>
+                        <li><a href="#">shoes</a></li>
+                        <li><a href="#">dress</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>follow us</h4>
+                    <div class="social-links">
+                        <a href="https://facebook.com/"><img src="assets/icon/face.png" alt="FB"></a>
+                        <a href="https://instagram.com/"><img src="assets/icon/insta.png" alt="Insta"></a>
+                        <a href="https://twitter.com/"><img src="assets/icon/twit.png" alt="Twit"></a>
+                        <a href="https://mail.google.com/"><img class="gmail" src="assets/icon/gmail.png" alt="gmail"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+    <!-- Java Script -->
+    <script>
+        var videoPlayer = document.getElementById("videoPlayer");
+        var myVideo = document.getElementById("myVideo");
+
+        function stopVideo(){
+            videoPlayer.style.display = "none";
+        }
+
+        function playVideo(file){
+            myVideo.src = file;
+            videoPlayer.style.display = "block";
+        }
+    </script>
+
+</body>
+</html>
